@@ -39,5 +39,9 @@
     <bean name="/login.htm"
           class="controllers.LoginController"
     />
+    
+    <bean name="/products.htm" 
+          class="controllers.ProductController" 
+    />
 
 </beans>

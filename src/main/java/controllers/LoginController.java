@@ -49,6 +49,10 @@ public class LoginController extends SimpleFormController {
             BindException errors) throws Exception {
         ModelAndView mv = new ModelAndView(getSuccessView());
         Login login = (Login)command;
+        
+        // just to play around
+        login.setUsername(login.getUsername() + "_USER");
+        
         mv.addObject("loginuser", login);
         return mv;
     }

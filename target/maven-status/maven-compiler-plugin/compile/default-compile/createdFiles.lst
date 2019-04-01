@@ -1,2 +1,5 @@
+database\Database.class
 controllers\LoginController.class
+controllers\ProductController.class
+models\Product.class
 models\Login.class
