@@ -16,6 +16,7 @@ import org.springframework.web.servlet.mvc.SimpleFormController;
  *
  * @author George.Pasparakis
  */
+@SuppressWarnings("deprecation")
 public class LoginController extends SimpleFormController {
     
     public LoginController() {

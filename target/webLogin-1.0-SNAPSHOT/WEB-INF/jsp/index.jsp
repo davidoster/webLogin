@@ -9,8 +9,6 @@
     </head>
 
     <body>
-        <p>Hello! You've made it!</p>
-        Username : ${loginuser.username}
-        Password : ${loginuser.password}
+        <p>Hello ${loginuser.username}! You've made it!</p>
     </body>
 </html>
