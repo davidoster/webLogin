@@ -10,5 +10,7 @@
 
     <body>
         <p>Hello! You've made it!</p>
+        Username : ${loginuser.username}
+        Password : ${loginuser.password}
     </body>
 </html>

@@ -24,7 +24,11 @@ public class LoginController extends SimpleFormController {
 
         setCommandClass(Login.class);
         setCommandName("user");
+        
+        // POST
         setSuccessView("index");
+        
+        // GET
         setFormView("login");
     }
     
@@ -43,7 +47,8 @@ public class LoginController extends SimpleFormController {
             Object command, 
             BindException errors) throws Exception {
         ModelAndView mv = new ModelAndView(getSuccessView());
-        //Do something...
+        Login login = (Login)command;
+        mv.addObject("loginuser", login);
         return mv;
     }
      
